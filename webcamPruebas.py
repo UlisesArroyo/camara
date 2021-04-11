@@ -12,5 +12,5 @@ while True:
 
     imshow("webcam", can)
     imshow("webcam2", frame)
-    if waitKey(50) >= 0:
+    if cv2.waitKey(33) == ord('f'):
         break;
